@@ -9,7 +9,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-TOKEN = "8264972630:AAHtB3idvs43-gYvDMIwCyBOOmvRs8kxnZ4"
+TOKEN = os.getenv("TOKEN")
 CHANNEL_USERNAME = "@PessSTORE7"
 OWNER_ID = 6891544595
 
